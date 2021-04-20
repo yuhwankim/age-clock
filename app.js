@@ -21,10 +21,10 @@ $(document).ready(function(){
 
     function load()
     {
-        // var dob = localStorage.getItem("dob");
-        // if (dob && dob != NaN) {
-        //     return new Date(parseInt(dob));
-        // }
+        var dob = localStorage.getItem("dob");
+        if (dob) {
+            return new Date(parseInt(dob));
+        }
         return -1;
     };
 
