@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    localStorage.clear();
+
     $("#submit").click(function(e){
         e.preventDefault();
     
@@ -19,7 +21,6 @@ $(document).ready(function(){
 
     function load()
     {
-        localStorage.clear();
         // var dob = localStorage.getItem("dob");
         // if (dob && dob != NaN) {
         //     return new Date(parseInt(dob));
