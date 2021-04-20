@@ -17,6 +17,15 @@ html {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+.reset {
+  position: fixed;
+  top:16px;
+  right: 24px;
+  color: rgba(255,255,255, .5);
+  font-weight: 100;
+  cursor: pointer;
+}
+
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-align-items: center;
@@ -82,8 +91,8 @@ label {
 input, button {
   padding: 0.375rem 0.75rem;
   font-size: 1.5rem;
-  appearance: none;
-  -webkit-appearance: none;
+  /* appearance: none; */
+  /* -webkit-appearance: none; */
 }
 
 input {
