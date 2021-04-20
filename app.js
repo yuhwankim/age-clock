@@ -19,11 +19,11 @@ $(document).ready(function(){
 
     function load()
     {
-        var dob;
-        if (dob = localStorage.getItem("dob"))
-        {
-            return new Date(parseInt(dob));
-        }
+        localStorage.clear();
+        // var dob = localStorage.getItem("dob");
+        // if (dob && dob != NaN) {
+        //     return new Date(parseInt(dob));
+        // }
         return -1;
     };
 
