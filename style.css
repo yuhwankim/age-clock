@@ -13,6 +13,8 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+  background: black; 
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 body {
@@ -25,14 +27,14 @@ body {
 
 body, input {
   display: -webkit-flex;
-  font-family: 'Avenir', 'helvetica neue', helvetica, arial, sans-serif;
 }
 
 .age-label {
   color: #B0B5B9;
-  font-size: 1.2rem;
+  font-size: 3.6rem;
   line-height: 1;
-  margin: 0 0 0 2px;
+  margin: 0 0 0 8px;
+  font-weight: 100;
 }
 
 #cite {
@@ -42,11 +44,13 @@ body, input {
   margin: 0 0 0 2px;
   position: fixed;
   bottom: 0;
+  
 }
 
 #cite a {
   color: rgb(154, 157, 160);
   text-decoration: none;
+  font-weight: 100;
 }
 #cite a:visited {
   color: rgb(125, 128, 131);
@@ -61,9 +65,9 @@ body, input {
 .count {
   color: #494949;
   margin: 0;
-  font-size: 6rem;
+  font-size: 7rem;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 .count sup {

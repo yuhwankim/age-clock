@@ -1,12 +1,16 @@
 $(document).ready(function(){
-    $("#submit").click(function(e){
-        e.preventDefault();
+    // $("#submit").click(function(e){
+    //     e.preventDefault();
     
-        var input = $("#dob-input").val();
-        var dob = new Date(input);
-        save(dob);
-        renderAgeLoop();
-    });
+    //     var input = $("#dob-input").val();
+    //     var dob = new Date(input);
+    //     save(dob);
+    //     renderAgeLoop();
+    // });
+    
+    var dob = new Date('1986-03-06');
+    save(dob);
+    renderAgeLoop();
 
     function save(dob)
     {
